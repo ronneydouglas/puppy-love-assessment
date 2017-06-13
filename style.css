@@ -1,0 +1,181 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url('img/bg.jpg');
+    background-position: 100%;
+}
+
+body > div {
+    width: 1600px;
+    height: 2800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-color: white;
+    border: 2px solid #ffd24a;
+}
+
+#site_header {
+    background-color: #ff8523;
+    padding-top: 30px;
+    padding-left: 25px;
+    height: 290px;
+}
+
+a > img {
+  width: 450px;
+  margin-left: : 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  padding-top: 6px 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 200%;
+  margin-left: 10px;
+}
+
+#logo {
+  border: none;
+}
+
+ul {
+    font-weight: bold;
+}
+
+table {
+  width: 1550px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+tr td {
+  border: 2px solid black;
+  font-size: 140%;
+  padding: 20px;
+}
+
+thead {
+    background-color: #1fabe5;
+    color: white;
+    height: 100px;
+    font-size: 160%;
+}
+
+td > img {
+  width: 100px;
+  height: 100px;
+}
+
+form {
+  width: 1450px;
+  height: 700px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 40px;
+  font-size: 180%;
+}
+
+.name {
+  background-color: #ff8523;
+  height: 110px;
+  border-radius: 10px;
+  padding-top: 22px;
+  padding-left: 22px;
+  font-weight: bold;
+  /*font-size: 200%;*/
+  color: white;
+  margin-bottom: 40px;
+}
+
+#first_name, #last_name {
+  width: 425px;
+  height: 85px;
+  /*padding: 10px;*/
+}
+
+.city_container {
+  margin-bottom: 20px;
+}
+
+textarea {
+font-size: 90%;
+margin-top: 10px;
+padding: 10px;
+}
+
+.submit_container {
+  width: 200px;
+  height: 65px;
+  background-color: #1fabe5;
+  color: white;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+#submit_button {
+  color: white;
+  background-color: #1fabe5;
+  border: none;
+  font-size: 90%;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+#page_content h2 {
+    font-weight: bold;
+    font-size: 300%;
+    color: #1fabe5;
+}
+
+p {
+  font-size: 200%;
+}
+
+#page_content  p  a {
+  font-size: 100%;
+}
+
+#page_content h3 {
+  font-weight: bold;
+  font-size: 240%;
+  color: #1fabe5;
+}
+#page_content {
+    background-color: white;
+    padding: 20px;
+}
+#page_content ul {
+    font-weight: strong;
+    font-size: 210%;
+}
+
+#page_content a {
+    color: #1fabe5;
+    font-weight: normal;
+}
+
+.main_navigation a {
+    padding: 0.5em 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
